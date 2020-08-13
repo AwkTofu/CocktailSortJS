@@ -3,8 +3,6 @@ let testArr = [5, 1, 4, 2, 8, 0, 2]
 function cocktailSort(arr) {
 	let start = 0, end = arr.length, swapped = true;
 
-	console.log(start, end, swapped);
-
 	while (swapped) {
 		swapped = false;
 
@@ -41,6 +39,3 @@ function cocktailSort(arr) {
 
 	return arr;
 }
-
-console.log("Before: ", testArr)
-console.log(cocktailSort(testArr));
