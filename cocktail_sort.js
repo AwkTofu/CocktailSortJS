@@ -35,6 +35,8 @@ function cocktailSort(arr) {
 				swapped = true;
 			}
 		}
+
+		start++;
 	}
 
 	return arr;
